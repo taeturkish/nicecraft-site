@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicecraft - Minecraft Sunucusu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Nicecraft Minecraft Sunucusu</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="register.html">Kayıt Ol</a></li>
+                <li><a href="login.html">Giriş Yap</a></li>
+                <li><a href="economy.html">Ekonomi Sistemi</a></li>
+                <li><a href="shop.html">Mağaza</a></li>
+                <li><a href="groups.html">Gruplar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Sunucuya Hoşgeldiniz!</h2>
+        <p>Nicecraft Minecraft Sunucusunda eğlenceli zaman geçirebilirsiniz. Şimdi kayıt olun ve oyun dünyasına katılın!</p>
+
+        <!-- Giriş yapmış kullanıcı bilgileri -->
+        <div class="user-info">
+            <p><strong>Kullanıcı Adı:</strong> <?php echo $username; ?></p>
+            <p><strong>Rütbe:</strong> <?php echo $role; ?></p>
+            <p><strong>Coins:</strong> <?php echo $coins; ?></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nicecraft Minecraft Sunucu</p>
+    </footer>
+</body>
+</html>
